@@ -9,7 +9,6 @@ class BlogPost extends Component {
         const { title, body } = this.props.data.contentfulBlogPost;
         return ( 
             <Layout>
-                <hr />
                 <main>
                 <h1>{title}</h1>
                 <div
@@ -18,7 +17,6 @@ class BlogPost extends Component {
                     <li><Link to="/">Home</Link></li>
                 </ul>
                 </main>
-                <hr />
             </Layout>
         );
     }
