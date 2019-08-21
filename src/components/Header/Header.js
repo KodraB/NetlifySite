@@ -7,8 +7,8 @@ import {default as H1} from '../Heading/Heading1/Heading1'
 
 const Outer = styled(Box)`
   background: ${({ theme }) => theme.color.primary.main};
-  margin-bottom: 1.45rem;
-  margin-top: 1.45rem;
+  margin-bottom: 0rem;
+  margin-top: 0rem;
   box-shadow:
     0 2px 4px -1px rgba(0, 0, 0, 0.2),
     0 4px 5px 0 rgba(0, 0, 0, 0.14),
@@ -26,7 +26,7 @@ const ScriptLink = styled.span`
 
 const Header = ({ siteTitle, currentUser, login, logout }) => ( 
   <Outer mb={4}>
-    <Flex my={0} mx="auto" px={3} py={4}>
+    <Flex my={0} mx="auto" px={2} py={5}>
     <H1 width={2 / 3}>
       <StyledLink to="/">{siteTitle}</StyledLink>
     </H1>

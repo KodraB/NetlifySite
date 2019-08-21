@@ -11,8 +11,8 @@ html {
 }
 body {
     margin: 0;
-    background-color: hsl(193, 93%, 14%);
-    color: hsl(191, 0%, 83% );
+    background: linear-gradient(to right, #00c3ff 0%, #ffff1c 100%);
+    color: #7d6bb3;
 }
 main {
     padding: 1% 22% 1% 22%;

@@ -25,7 +25,7 @@ const StyledText = styled(BaseText)`
 
 const PrimaryText = props => <StyledText {...props} />
 
-// This is our ListItem component
+// This is the ListItem component
 const ListItem = ({children}) => <Box>{children}</Box>
 
 ListItem.Heading = Heading

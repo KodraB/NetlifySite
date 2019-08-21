@@ -7,7 +7,6 @@ import { graphql } from 'gatsby';
 
 const IndexPage = ({data}) => (
   <Layout>
-    <hr />
     <List>
       {data.allContentfulBlogPost.edges.map(edge => (
         <ListItem key={edge.node.id}>
@@ -23,7 +22,6 @@ const IndexPage = ({data}) => (
         </ListItem>
         ))}
     </List>
-    <hr />
   </Layout>
 );
 

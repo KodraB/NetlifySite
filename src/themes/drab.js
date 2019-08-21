@@ -1,13 +1,13 @@
 export const theme = {
     color: {
         primary: {
-            light: 'hsl(208, 13%, 35%)',
-            main: 'hsl(193, 93%, 14%)',
-            dark: 'hsl(208, 13%, 15%)',
+            light: 'linear-gradient(to right, #009245 0%, #FCEE21 100%)',
+            main: 'linear-gradient(to right, #ffff1c 0%, #00c3ff 100%)',
+            dark: 'linear-gradient(to right, #009245 0%, #FCEE21 100%)',
             contrastText: '#fcfcfc'
         },
         text: {
-            primary: 'hsl(191, 0%, 83%)',
+            primary: '#7d6bb3',
             secondary: 'hsl(208, 13%, 15%)',
             disabled: 'hsl(208, 13%, 15%)',
             hint: 'hsl(208, 13%, 15%)'
@@ -16,7 +16,7 @@ export const theme = {
             primary: 'hsl(0, 83%, 99%)'
         },
         header: {
-            backgroundColor: "#32CD32"
+            backgroundColor: "#linear-gradient(to right, #009245 0%, #FCEE21 100%)"
         }
     }
 }
